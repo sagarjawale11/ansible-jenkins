@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: "{{ dest_hosts }}"
   connection: local
   roles:
     - jenkins
